@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WelcomeControllerApi {
 	
-	@GetMapping("/message")
+	@GetMapping("/messagess")
 	public String getMessage() {
 		return "welcome";
 	}
